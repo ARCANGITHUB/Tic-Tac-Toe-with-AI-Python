@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "boat[4]"
+- text: 1
+- text: '''dog'''
+- text: IndexError
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6717#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 22 Feb 2023 17:34:23 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "Output: a. Code: print(a)"
+- text: "Output: b. Code: print(b)"
+- text: "Output: 9. Code: print(a)"
+- text: "Output: 9. Code: print(b)"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5936#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 21 Feb 2023 16:58:47 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false

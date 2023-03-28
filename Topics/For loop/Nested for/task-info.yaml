@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: all the loops execute simultaneously.
+- text: the outer loop executes first.
+- text: the inner loop executes first.
+- text: with <code>for</code> and <code>while</code> the <code>for</code> loop always
+    executes first.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6066#comment
+status: Solved
+record: -1
+local_check: false

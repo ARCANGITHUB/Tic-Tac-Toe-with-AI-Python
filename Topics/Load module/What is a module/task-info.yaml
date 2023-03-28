@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: File that has a .py extension and contains statements and definitions.
+- text: Special container that stores different objects so they may be referred to
+    by name.
+- text: Organized block of code that is used to perform a single action.
+- text: Directory that contains several Python files.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6020#comment
+status: Solved
+record: -1
+custom_name: What is a module?
+local_check: false

@@ -1,0 +1,29 @@
+<h2>Where are globals?</h2>
+<p>Which variables in the following code are considered global?</p>
+
+<pre><code class="language-python">a = 1
+b = 2
+
+def func():
+    c = 3
+    d = a + b
+    global e
+    e = b + c
+    f = 4
+    def inner_func():
+        nonlocal f
+        f = 5
+    inner_func()
+
+
+func()
+</code></pre>
+
+<p> </p>
+
+<p><button
+        class="btn-sm btn-outline-secondary"
+        onclick="getElementById('hint-299').style.display='inline'">
+        Hint
+      </button>
+      <div id="hint-299" style="display:none;">What are the ways to define a global variable?</div></p>

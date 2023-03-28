@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "<code>for i in range(1, 5): print(i)</code> will print 5 numbers."
+- text: "In the nested loop, the inner loop is executed first."
+- text: 'The <code>for</code> loop only works with iterable objects. '
+- text: "If the counter variable is not used in a loop, its name can be replaced with\
+    \ an underscore symbol."
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6545#comment
+status: Solved
+record: -1
+local_check: false

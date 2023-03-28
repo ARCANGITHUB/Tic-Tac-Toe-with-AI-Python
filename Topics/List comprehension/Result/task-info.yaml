@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: even numbers; from 0 to 22
+- text: even numbers; from 2 to 18
+- text: odd numbers; from 0 to 18
+- text: odd numbers; from 2 to 22
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6709#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 23 Feb 2023 16:31:52 UTC"
+record: -1
+selected_options:
+- 1
+local_check: false

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: a string
+- text: a list
+- text: 'an integer number '
+- text: a tuple
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9550#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 08 Mar 2023 20:51:53 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false

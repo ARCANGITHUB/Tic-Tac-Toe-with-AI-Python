@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def sq_sum():
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9555#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 09 Mar 2023 16:24:13 UTC"
+record: -1
+submission_language: python3

@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: list
+- text: float
+- text: integer
+- text: NaN
+- text: string
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7801#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 24 Feb 2023 16:57:31 UTC"
+record: -1
+selected_options:
+- 0
+- 4
+local_check: false

@@ -1,0 +1,12 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: "word = input()  # the input word"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8086#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 08 Mar 2023 17:43:33 UTC"
+record: -1

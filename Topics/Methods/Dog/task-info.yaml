@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: bark
+- text: greet
+- text: play
+- text: sleep
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6932#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 02 Mar 2023 21:27:02 UTC"
+record: -1
+selected_options:
+- 0
+- 3
+local_check: false

@@ -1,0 +1,34 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    sentence = input()
+
+    def aver(sent):
+
+        for sym in [',', '!', '?', ';', '.', '"', "'"]:
+            sent = sent.replace(sym, '')
+
+        words = sent.split()
+
+        total = 0
+        for word in words:
+            total = total + len(word)
+
+        if len(word) != 0:
+            result = total / len(word)
+        else:
+            result = 0
+
+        return result
+
+    print(aver(sentence))
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15376#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 24 Mar 2023 19:41:08 UTC"
+record: -1
+submission_language: python3

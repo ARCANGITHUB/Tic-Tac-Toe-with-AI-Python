@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: "def multiply(a, b):\n    # base case\n    if ...:  \n        return a\n \
+    \   # recursive case\n    return  ..."
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7669#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 24 Mar 2023 21:24:42 UTC"
+record: -1
+submission_language: python3

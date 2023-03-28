@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "<code>(['a'],)</code>"
+- text: "<code>(['a'])</code>"
+- text: <code>('a')</code>
+- text: "<code>('a',)</code>"
+- text: <code>tuple('a') </code>
+- text: "<code>tuple('a',)</code>"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21644#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 08 Mar 2023 18:20:38 UTC"
+record: -1
+selected_options:
+- 0
+- 3
+- 4
+- 5
+local_check: false

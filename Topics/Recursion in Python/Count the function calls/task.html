@@ -1,0 +1,14 @@
+<h2>Count the function calls</h2>
+<html><body><p>Below you can see a slightly different version of a function from the theory that recursively raises a number to its positive power. For example, finds the value of <span class="math-tex">\(5^8\)</span>.</p>
+<pre><code class="language-python">def pow_rec(number, power):
+    # base case
+    if power == 0:
+        return 1
+     # base case
+    elif power == 1:
+        return number
+     # recursive case
+    else:
+        return number * pow_rec(number, power - 1)</code></pre>
+<p>How many times will the function be called when the original call is:</p>
+<pre><code class="language-python">pow_rec(3, 5)</code></pre></body></html>

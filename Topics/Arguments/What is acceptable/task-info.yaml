@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "subtract(3, b=1)"
+- text: "subtract(b=3, a=1)"
+- text: "subtract(3, 1)"
+- text: "subtract(a=3, 1)"
+- text: "subtract(a=3, b=1)"
+- text: "subtract(3, a=1)"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7249#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 03 Mar 2023 21:10:32 UTC"
+record: -1
+selected_options:
+- 3
+- 5
+local_check: false

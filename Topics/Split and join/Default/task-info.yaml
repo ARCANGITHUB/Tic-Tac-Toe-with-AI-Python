@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: join()
+- text: splitlines()
+- text: split()
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6976#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 22 Feb 2023 22:18:39 UTC"
+record: -1
+selected_options:
+- 0
+local_check: false

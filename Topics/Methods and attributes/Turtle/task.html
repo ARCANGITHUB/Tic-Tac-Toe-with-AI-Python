@@ -1,0 +1,29 @@
+<h2>Turtle</h2>
+<p>Here's a class <code class="language-python">Turtle</code> that represents a turtle that is moving in the 2D world. The turtle can move in four directions: up, down, left and right. The turtle can make <strong>n</strong> steps at a time and the only restrictions are that <span class="math-tex">\(x \geq 0, y \geq 0\)</span>.</p>
+
+<pre><code class="language-python">class Turtle:
+    def __init__(self, x, y):
+        # the initial coordinates of the turtle
+        self.x = x
+        self.y = y
+
+    def move_up(self, n):
+        self.y += n
+
+    def move_down(self, n):
+        self.y = 0 if n &gt; self.y else self.y - n
+
+    def move_right(self, n):
+        self.x += n
+
+    def move_left(self, n):
+        self.x = 0 if n &gt; self.x else self.x - n
+</code></pre>
+
+<p>What will be the coordinates of the Turtle <code class="language-python">leo</code> after these movements? Choose the pair <strong>(x, y)</strong>.</p>
+
+<pre><code class="language-python">leo = Turtle(1, 1)
+leo.move_up(7)
+leo.move_left(5)
+leo.move_down(4)
+leo.move_right(6)</code></pre>

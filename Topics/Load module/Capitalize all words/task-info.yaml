@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # place `import` statement at top of the program
+
+
+    # don't modify this code or the variable may not be available
+    input_string = input()
+
+    # use capwords() here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7177#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 28 Feb 2023 18:07:13 UTC"
+record: -1

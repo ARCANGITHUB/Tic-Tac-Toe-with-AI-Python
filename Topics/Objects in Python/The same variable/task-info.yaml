@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: We don't know that
+- text: 879149
+- text: There will be an error
+- text: 879148
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9264#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 06 Mar 2023 16:09:43 UTC"
+record: -1
+selected_options:
+- 0
+custom_name: The same variable?
+local_check: false

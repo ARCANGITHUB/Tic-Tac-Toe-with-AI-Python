@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: TypeError
+- text: "False"
+- text: "True"
+- text: None
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7803#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 24 Feb 2023 17:00:47 UTC"
+record: -1
+selected_options:
+- 1
+local_check: false

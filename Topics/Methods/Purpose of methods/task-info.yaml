@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: State of a class or its objects
+- text: Behavior of a class or its objects
+- text: Type of a class or its objects
+- text: Nothing. They work independently from a class or its instances
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/22744#comment
+status: Solved
+record: -1
+local_check: false

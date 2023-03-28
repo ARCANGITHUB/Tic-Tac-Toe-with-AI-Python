@@ -1,0 +1,13 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: "dictionary = [\"aa\", \"abab\", \"aac\", \"ba\", \"bac\", \"baba\", \"cac\"\
+    , \"caac\"]"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6525#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 21 Feb 2023 17:01:42 UTC"
+record: -1

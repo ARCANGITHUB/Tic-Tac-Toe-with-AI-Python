@@ -1,0 +1,12 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# please work with the variable fav_flowers'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9144#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 06 Mar 2023 17:28:19 UTC"
+record: -1

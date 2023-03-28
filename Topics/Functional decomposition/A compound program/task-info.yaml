@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Give up and write a new one.
+- text: ' Provide detailed annotation for each line of code.'
+- text: Wrap it in one comprehensive method.
+- text: ' Create a number of separate functions to execute individual tasks.'
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15771#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 13 Mar 2023 21:10:37 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false

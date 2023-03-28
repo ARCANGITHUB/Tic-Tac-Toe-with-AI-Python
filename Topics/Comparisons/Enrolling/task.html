@@ -1,0 +1,74 @@
+<h2>Enrolling</h2>
+<p>Imagine, you are developing a rule in terms of logical and comparison operations to determine whether you should enroll a student in your course or not. The rule itself looks like this:</p>
+
+<pre><code class="language-python">enroll_student = ((average_grade &gt;= 40 and recommended_by_tutor) 
+            or (finished_introductory_course and introductory_course_grade &gt; 85))</code></pre>
+
+<p>Parameters meaning:</p>
+
+<ul>
+	<li><strong>average_grade</strong> is an integer variable that shows the student's average grade.</li>
+	<li><strong>recommended_by_tutor</strong> is a bool variable that shows whether the student has a recommendation from the tutor.</li>
+	<li><strong>finished_introductory_course</strong> is a bool variable that shows whether the student finished the introductory course.</li>
+	<li><strong>introductory_course_grade</strong> is an integer variable that shows the student's introductory course grade.</li>
+</ul>
+
+<p>The table of students who wish to enroll:</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 1000px;">
+	<thead>
+		<tr>
+			<th> </th>
+			<th>average_grade</th>
+			<th>recommended_by_tutor</th>
+			<th>finished_introductory_course</th>
+			<th>introductory_course_grade</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th><strong>Anne</strong></th>
+			<td style="text-align: center;">49</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">False</td>
+			<td style="text-align: center;">0</td>
+		</tr>
+		<tr>
+			<th><strong>John</strong></th>
+			<td style="text-align: center;">41</td>
+			<td style="text-align: center;">False</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">76</td>
+		</tr>
+		<tr>
+			<th><strong>Frank</strong></th>
+			<td style="text-align: center;">37</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">97</td>
+		</tr>
+		<tr>
+			<th><strong>Victoria</strong></th>
+			<td style="text-align: center;">40</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">86</td>
+		</tr>
+		<tr>
+			<th><strong>Mary</strong></th>
+			<td style="text-align: center;">49</td>
+			<td style="text-align: center;">False</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">85</td>
+		</tr>
+		<tr>
+			<th><strong>Sam</strong></th>
+			<td style="text-align: center;">33</td>
+			<td style="text-align: center;">False</td>
+			<td style="text-align: center;">True</td>
+			<td style="text-align: center;">51</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Using this rule select all the students to enroll.</p>

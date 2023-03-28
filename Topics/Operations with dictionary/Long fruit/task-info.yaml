@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "<code>fruits_dict = {element: len(element) if len(element) &gt; 5 for element\
+    \ in fruits}</code>"
+- text: "<code>fruits_dict = {element: len(element) for element in fruits.values()\
+    \ if len(element) &gt; 5}</code>"
+- text: "<code>fruits_dict = {element: len(element) for element in fruits if len(element)\
+    \ &gt; 5}</code>"
+- text: "<code>fruits_dict = {key: len(element) for key, element in fruits.items()\
+    \ if len(element) &gt; 5}</code>"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11097#comment
+status: Solved
+record: -1
+local_check: false

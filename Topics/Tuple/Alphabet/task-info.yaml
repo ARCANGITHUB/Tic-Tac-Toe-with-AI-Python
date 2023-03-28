@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # work with this string
+    alphabet = input()
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7468#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 08 Mar 2023 18:11:46 UTC"
+record: -1

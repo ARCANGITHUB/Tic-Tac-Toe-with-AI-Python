@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "my_dict.pop(my_dict[\"key\"])"
+- text: remove "key" from my_dict
+- text: "del my_dict[key]"
+- text: my_dict.delete("key")
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9012#comment
+status: Solved
+record: -1
+local_check: false

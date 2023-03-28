@@ -1,0 +1,49 @@
+content:
+- Basic data types
+- Invoking a function
+- Integer arithmetic
+- Declaring a function
+- Scopes
+- Comparisons
+- If statement
+- Else statement
+- For loop
+- While loop
+- Loop control statements
+- Elif statement
+- Indexes
+- Basic string methods
+- Escape sequences
+- Split and join
+- List comprehension
+- Nested lists
+- Any and all
+- Load module
+- Packages
+- Class
+- Class instances
+- String formatting
+- Methods
+- Methods and attributes
+- Arguments
+- Identity testing
+- Objects in Python
+- Dictionary
+- Dictionary methods
+- Operations with dictionary
+- Operations with list
+- Default arguments
+- Random module
+- Set
+- Tuple
+- Args
+- Kwargs
+- How to choose a collection to use
+- Class vs instance
+- Functional decomposition
+- Avoiding bad comments
+- Magic methods
+- Inheritance in Python
+- Slicing
+- Algorithms in Python
+- Recursion in Python

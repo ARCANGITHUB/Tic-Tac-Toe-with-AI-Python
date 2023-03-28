@@ -1,0 +1,67 @@
+<h2>Methods</h2>
+<html><body><p>If attributes define the data that the objects of a particular class have, the <strong>methods</strong> define their behavior. Python has several types of methods that you can create within a class but, in this topic, we will focus on the instance methods. </p>
+<h5 id="method-syntax" style="text-align: center;">Method syntax</h5>
+<p>Methods define the functionality of the objects that belong to the particular class. The basic syntax looks like this:</p>
+<pre><code class="language-python"># basic method syntax
+class MyClass:
+    # the constructor
+    def __init__(self, arg1):
+        self.att = arg1
+
+    # custom method
+    def do_smt(self):
+        # does something</code></pre>
+<p>You can see that declaring a method resembles declaring a function: we have the keyword <strong><code class="language-python">def</code></strong> followed by the name of the method. The parameters of the method are written inside the parentheses. </p>
+<p>The first parameter of the method should always be <strong><code class="language-python">self</code></strong>. You may remember that <code class="language-python">self</code> represents the particular instance of the class. When it comes to instance methods, the first parameter that is passed to the method is the instance that called it. Let's create an instance of <strong>MyClass </strong>and see how this works:</p>
+<pre><code class="language-python">my_object = MyClass(some_value)
+# calling the instance method
+my_object.do_smt()
+# my_object does something</code></pre>
+<p>In this example, the <strong>my_object </strong>instance is passed <em>implicitly</em> so we do not write the parameter in the code. We can, however, pass the instance explicitly:</p>
+<pre><code class="language-python">MyClass.do_smt(my_object)
+# my_object does the same thing</code></pre>
+<p>These examples clearly illustrate why <code class="language-python">self</code> has to be the first argument of the instance methods. If you want your method to have other parameters, just write them after the <code class="language-python">self</code> keyword!</p>
+<h5 id="methods-vs-functions" style="text-align: center;">Methods vs functions</h5>
+<p>Though they are quite similar, Python does make a distinction between methods and functions. To quote the official documentation, <em>"a method is a function that 'belongs to' an object." </em>Since we're interested in OOP, we'll specifically be looking at methods associated with class instances.</p>
+<p>Let's consider an example:</p>
+<pre><code class="language-python"># class and its methods
+class Ship:
+    def __init__(self, name, capacity):
+        self.name = name
+        self.capacity = capacity
+        self.cargo = 0
+
+    def sail(self):
+        print("{} has sailed!".format(self.name))
+
+
+# function
+def sail_function(name):
+    print("{} has sailed!".format(name))
+</code></pre>
+<p>What is of interest to us here is the method <code class="language-python">sail</code> of the class <code class="language-python">Ship</code> and the function <code class="language-python">sail_function</code>. Let's call them:</p>
+<pre><code class="language-python"># creating an instance of the class Ship
+# and calling the method sail
+black_pearl = Ship("Black Pearl", 800)
+black_pearl.sail()
+# prints "Black Pearl has sailed!"
+
+
+# calling the function sail_function
+sail_function(black_pearl.name)
+# also prints "Black Pearl has sailed!"</code></pre>
+<p>The way that we've defined them, both our method and our function produce the same results but in a different way. A method is connected to an object of the class, it is not independent the way a function is. Sure they are both called by their names, but to call a method we need to invoke the class that this method belongs to. </p>
+<h5 id="return" style="text-align: center;">Return</h5>
+<p>So far the method hasn't returned any values since we only used the <code class="language-python">print()</code> function. Obviously, just as with functions, we can define what type of data the method can return with the <code class="language-python">return</code> statement. For example, let's create a method that calculates how many kilograms of cargo the ship has (initially, the weight of the cargo is given in tonnes):</p>
+<pre><code class="language-python">class Ship:
+    # other methods
+    
+    def convert_cargo(self):
+        return self.cargo * 1000</code></pre>
+<p>The method is simple: it converts the tonnes into kilograms (by multiplying it by 1000) and then returns the calculated value. If we were to call it, we wouldn't get any messages unless we explicitly printed the result of the function:</p>
+<pre><code class="language-python">print(black_pearl.convert_cargo())  # 0</code></pre>
+<p>Since we haven't changed the default value of the <code class="language-python">cargo</code> attribute, the method would return 0 multiplied by 1000, which is also 0.</p>
+<h5 id="conclusion" style="text-align: center;">Conclusion</h5>
+<p><strong>Methods</strong> within classes specify the behavior of a class or its objects. They are similar to functions with the exception that they are strongly connected to the class and cannot be called independently from it or its instances. </p>
+<p>The first parameter of instance methods is the keyword <strong><code class="language-python">self</code> </strong>that represents the particular instance of the class. That particular instance of the class is the first argument that is passed to the method. Methods can return values or simply print messages (i.e. return nothing).</p>
+<p>Methods allow you to add any functionality to your classes. This is how you can manipulate your objects and create complex programs, so we encourage you to explore methods in your projects!</p></body></html>

@@ -1,0 +1,23 @@
+type: number
+files:
+- name: answer.txt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 2
+    placeholder_text: type your solution here
+    initial_state:
+      length: 2
+      offset: 0
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+  text: type your solution here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6817#comment
+status: Solved
+feedback:
+  message: "<html>Indeed, if we comment out the 11-th line, n_guesses will stop increasing,\
+    \ and while cycle will continue to run indefinitely.</html>"
+  time: "Wed, 22 Feb 2023 14:44:13 UTC"
+record: -1

@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "The correct syntax would be <code>Instrument(Violin, Piano)</code>"
+- text: "The <code>Instrument</code> class should be placed first, the order afterwards\
+    \ doesn't matter"
+- text: "The <code>Instrument</code> class should be placed first, then <code>Violin</code>,\
+    \ then <code>Piano</code>"
+- text: "The code is totally fine, well done!"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21999#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 21 Mar 2023 20:36:48 UTC"
+record: -1
+selected_options:
+- 1
+local_check: false

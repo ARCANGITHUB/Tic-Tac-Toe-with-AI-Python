@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "Within the class, outside any methods."
+- text: "Within the class, within the <code>__init__()</code> method."
+- text: "Right before the definition of the class, outside any functions."
+- text: "Right after the definition of the class, outside any functions."
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15552#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: add() method
+- text: clear() method
+- text: discard() method
+- text: get all elements using a for loop
+- text: len() function
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10381#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 08 Mar 2023 17:44:04 UTC"
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+local_check: false

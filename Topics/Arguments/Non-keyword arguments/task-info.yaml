@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "Calling the same function with the same values of positional arguments, but\
+    \ in different order, can result in different outcomes."
+- text: "If there are only positional arguments when calling a function, their order\
+    \ will never generate a <code>SyntaxError</code>."
+- text: They should be written after the key-word arguments.
+- text: "For positional arguments, their order will determine the values of parameters."
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15516#comment
+status: Solved
+record: -1
+local_check: false

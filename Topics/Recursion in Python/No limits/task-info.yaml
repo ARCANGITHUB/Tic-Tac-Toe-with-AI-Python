@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import sys
+
+    # write your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16783#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 24 Mar 2023 21:16:41 UTC"
+record: -1
+submission_language: python3

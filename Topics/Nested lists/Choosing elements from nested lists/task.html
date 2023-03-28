@@ -1,0 +1,11 @@
+<h2>Choosing elements from nested lists</h2>
+<p>Imagine that the list below shows a part of a cafe's menu where the first element in each nested list is the name of a dish, the second element is the number of people the dish is aimed at, and the third number is its cost in the local currency.</p>
+
+<pre><code class="language-python">menu = [["pizza", 4, 20], ["soup", 1, 8], ["ice cream", 2, 4], ["toasts", 2, 10]]</code></pre>
+
+<p>Let's say a customer wants to select what to order using Python, and they have written the following code:</p>
+
+<pre><code class="language-python">what_to_order = [dish[0] for dish in menu if dish[1] &gt;= 2 and dish[2] &lt; 15]
+print(what_to_order)</code></pre>
+
+<p>Which output will this expression yield?</p>

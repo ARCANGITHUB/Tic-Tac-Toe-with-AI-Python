@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "We specify arguments when declaring a function, whereas parameters are used\
+    \ in function calls."
+- text: "Arguments and parameters mean the same thing, these words are synonyms."
+- text: "Parameters appear in a function definition, while arguments are the values\
+    \ we pass during a call."
+- text: "Order is important only for arguments, as opposed to parameters."
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8553#comment
+status: Solved
+record: -1
+local_check: false

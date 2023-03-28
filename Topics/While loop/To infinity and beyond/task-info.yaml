@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: number &gt; 0
+- text: number*2 &lt; 1000
+- text: number % 100 != 0
+- text: "True"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6535#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 21 Feb 2023 18:41:48 UTC"
+record: -1
+selected_options:
+- 0
+- 3
+local_check: false

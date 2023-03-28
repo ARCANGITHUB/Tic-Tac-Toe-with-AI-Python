@@ -1,0 +1,157 @@
+<h2>How to choose a collection to use</h2>
+<html><body><p>As you may know, there are four main data collections in Python: a <strong>list</strong>, <strong>tuple</strong>, <strong>set</strong>, and <strong>dictionary</strong>. It may seem a little overwhelming and complex at first, but a good Python developer needs to have a good grasp of data structures because they are the program's building blocks. This topic will point out the differences and similarities between data collections and help you decide which suits you better.</p>
+<h5 id="properties-to-look-at">Properties to look at</h5>
+<p>Different data collections have different properties. Let’s briefly recall them.</p>
+<ol>
+<li>
+<p><strong>How elements are stored</strong>: both lists and tuples can store elements in a single row or several rows and columns, so they allow stacking. Sets, on the other hand, store elements only in a single row. Dictionaries store elements in key-value pairs.</p>
+</li>
+<li>
+<p><strong>Duplicates</strong>:<strong> </strong>lists and tuples can have duplicate elements. In dictionaries, keys cannot repeat themselves, while values can be the same for different keys. Finally, sets cannot have two items with the same value.</p>
+</li>
+<li>
+<p><strong>Mutability</strong>: except tuples, all other collections are mutable. We can change the stored elements.</p>
+</li>
+<li>
+<p><strong>Order</strong>: all data structures excluding sets are ordered, so the elements preserve their order.<br/>
+</p><div class="alert alert-primary">Unfortunately, dictionaries became ordered only in Python 3.7. If you are using earlier versions of Python, there is a dictionary subclass <code class="language-python">OrderedDict</code> that remembers the order of added entries. You can find it in the <code class="language-python">collections</code> module. </div><p></p>
+</li>
+<li>
+<p><strong>Indexing</strong>: in lists and tuples, we can access the constituent elements through indexing and retrieve indexes of the required elements. Dictionaries and sets cannot be indexed. However, you can use the <code class="language-python">list()</code> constructor. It takes an iterable (a set, a dictionary, or a string) as a parameter and creates a list of iterable items. </p>
+</li>
+</ol>
+<p>Below you can find a comparison table that can help with the decision. </p>
+<table align="center">
+<tbody>
+<tr>
+<td style="text-align: center;"> </td>
+<td>
+<p style="text-align: center;"><strong>List </strong></p>
+</td>
+<td>
+<p style="text-align: center;"><strong>Tuple</strong></p>
+</td>
+<td>
+<p style="text-align: center;"><strong>Set</strong></p>
+</td>
+<td>
+<p style="text-align: center;"><strong>Dictionary</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><strong>Mutable</strong> </p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">-</p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><strong>Duplicates</strong></p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">-</p>
+</td>
+<td>
+<p style="text-align: center;">(-) keys</p>
+<p style="text-align: center;">(+) values</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><strong>Ordered</strong></p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">-</p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><strong>Indexing/Slicing</strong></p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">+</p>
+</td>
+<td>
+<p style="text-align: center;">-</p>
+</td>
+<td>
+<p style="text-align: center;">-</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><strong>Storage type</strong></p>
+</td>
+<td>
+<p style="text-align: center;">row/column</p>
+</td>
+<td>
+<p style="text-align: center;">row/column</p>
+</td>
+<td>
+<p style="text-align: center;">row</p>
+</td>
+<td>
+<p style="text-align: center;">key-value</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h5 id="questions-to-ask-yourself">Questions to ask yourself</h5>
+<p>There are several questions you can ask yourself that will help you make the right decision. </p>
+<ol>
+<li>
+<p><strong>Am I going to perform membership tests?</strong> For example, you want to write a program that will consider a user input valid only if it is a part of a collection, otherwise it is invalid. In this case, use a set. In general, sets are preferred over lists when you want to do lookups because sets are implemented as hash-tables. They perform membership tests faster, especially when you have a lot of data. Here is an example of when it's a good idea to use a set:</p>
+<pre><code class="language-python">valid_answers = {"y", "n"}
+answer = None
+while answer not in valid_answers:
+    answer = input("Continue? [y, n] ")</code></pre>
+</li>
+<li>
+<p><strong>Is the order important?</strong> If so, use a list. As you know, lists can be indexed, so it is possible to find an element by its position or find the position by the name of the element:</p>
+<pre><code class="language-python">names = ['John', 'Mary', 'Alex', 'Alice']
+print(names[1])  # Mary
+print(names.index('Alice'))  # 3</code></pre>
+</li>
+<li>
+<p><strong>But what if the positions are important and the values are fixed?</strong> As you may have noticed, the <code class="language-python">names</code> list above is mutable, we can expand it or remove some elements. What if we do not want that? Then, choose a tuple over a list. Not only are tuples immutable, but they are also iterated over faster than lists with large amounts of data. For example, let’s assume we have a tuple of weekdays, and we want it to stay the same all the time: </p>
+<pre><code class="language-python">days = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+print(days[1])  # Tuesday</code></pre>
+</li>
+<li>
+<p><strong>What if I want to extract a value of an element not by its index but by its key? </strong>Then, a dictionary is the best choice. Take a mapping between a person’s name and their age: </p>
+<pre><code class="language-python">names_age = {"John": 22, "Mary": 35, "Alex": 16, "Alice": 54}
+print(names_age['Mary'])  # 35</code></pre>
+</li>
+</ol>
+<h5 id="conclusion">Conclusion</h5>
+<p>In this topic, we have discussed the various properties of four main Python collections. We also have taken a look at various questions that can help you with choosing a data structure. To sum up, when choosing the right collection, think about which elements you are going to store, how you want to access elements, and whether you want the collection to be mutable. Practice makes perfect. After a little while, you will be able to choose a collection without a doubt.</p></body></html>

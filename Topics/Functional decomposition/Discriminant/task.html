@@ -1,0 +1,52 @@
+<h2>Discriminant</h2>
+<p></p>
+<p>We've written a simple program for calculating the roots of a quadratic equation:</p>
+<pre><code class="language-python">def find_roots(a, b, c):
+    # the equation is ax^2 + bx + c = 0
+    discriminant = b * b - 4 * a * c
+    if discriminant &lt; 0:
+        print("No real roots!")
+    elif discriminant == 0:
+        x = -b / (2 * a)
+        print("x =", x)
+    else:
+        x1 = (-b + discriminant ** 0.5) / (2 * a)
+        x2 = (-b - discriminant ** 0.5) / (2 * a)
+        print("x1 =", x1)
+        print("x2 =", x2)</code></pre>
+<p>After that, we decided to decompose this code and create additional functions:</p>
+<pre><code class="language-python">def calculate_discriminant(a, b, c):
+    return b * b - 4 * a * c
+
+
+def calculate_roots(a, b, d):
+    x1 = (-b + d ** 0.5) / (2 * a)
+    x2 = (-b - d ** 0.5) / (2 * a)
+    if x1 == x2:
+        print("x =", x1)
+    else:
+        print("x1 =", x1)
+        print("x2 =", x2)
+</code></pre>
+<p>How should the final function look? Make sure that the function produces the correct output and is properly decomposed (no unnecessary actions are performed).</p>
+<p>The options are:</p>
+<p>1)</p>
+<pre><code class="language-python">def main(a, b, c):
+    discriminant = calculate_discriminant(a, b, c)
+    if discriminant &lt; 0:
+        print("No real roots!")
+    elif discriminant == 0:
+        calculate_roots(a, b, discriminant)
+    else:
+        calculate_roots(a, b, discriminant)</code></pre>
+<p>2)</p>
+<pre><code class="language-python">def main(a, b, c):
+    discriminant = calculate_discriminant(a, b, c)
+    calculate_roots(a, b, discriminant)</code></pre>
+<p>3)</p>
+<pre><code class="language-python">def main(a, b, c):
+    discriminant = calculate_discriminant(a, b, c)
+    if discriminant &lt; 0:
+        print("No real roots!")
+    else:
+        calculate_roots(a, b, discriminant)</code></pre>

@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: A program debugging method.
+- text: "A process of splitting a large problem into smaller, simpler tasks. "
+- text: A program testing method.
+- text: A process of combining several functions into a single complex one.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15770#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 13 Mar 2023 18:38:37 UTC"
+record: -1
+selected_options:
+- 1
+custom_name: What is that?
+local_check: false

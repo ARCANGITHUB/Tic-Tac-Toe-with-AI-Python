@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # don't modify this code or variable `x` may not be available
+    x = int(input())
+
+    # use factorial() here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6022#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 28 Feb 2023 18:00:02 UTC"
+record: -1

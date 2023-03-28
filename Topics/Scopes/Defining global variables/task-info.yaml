@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Declare a variable in a function using a global keyword.
+- text: Define a variable in a function named main.
+- text: Define a variable at the top-level of the module.
+- text: Declare a variable in a function using a nonlocal keyword.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6326#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 20 Feb 2023 17:14:11 UTC"
+record: -1
+selected_options:
+- 0
+- 2
+local_check: false

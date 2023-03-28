@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def add_viewer(...):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10299#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 2. Wrong answer
+  time: "Tue, 21 Mar 2023 16:37:33 UTC"
+record: -1
+submission_language: python3

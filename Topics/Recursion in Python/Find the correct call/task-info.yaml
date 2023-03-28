@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "power(2, 0) "
+- text: "power(2, 2) "
+- text: "power(6, 2) "
+- text: "power(2, 1) "
+- text: "power(2, 6) "
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7673#comment
+status: Solved
+record: -1
+local_check: false

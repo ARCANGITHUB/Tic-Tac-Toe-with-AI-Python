@@ -1,0 +1,22 @@
+type: number
+files:
+- name: answer.txt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 1
+    placeholder_text: type your solution here
+    initial_state:
+      length: 1
+      offset: 0
+    initialized_from_dependency: false
+    selected: false
+    status: Solved
+  text: type your solution here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6186#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 23 Feb 2023 18:43:10 UTC"
+record: -1

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "<code>{'doll', 'toy car'}</code>"
+- text: "<code>{'puppy'}</code>"
+- text: "<code>{'teddy bear', 'puppy'}</code>"
+- text: "<code>{'teddy bear'}</code>"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13670#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 07 Mar 2023 18:39:24 UTC"
+record: -1
+selected_options:
+- 2
+local_check: false

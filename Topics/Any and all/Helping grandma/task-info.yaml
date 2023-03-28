@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "<code>any()</code> will return <code>False</code>, and <code>all()</code>\
+    \ will return <code>True</code>"
+- text: "<code>any()</code> will return <code>True</code>, and <code>all()</code>\
+    \ <code>False</code>"
+- text: Both will return <code>False</code>
+- text: Both will return <code>True</code>
+- text: Both will result in an error
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14986#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 24 Feb 2023 16:57:03 UTC"
+record: -1
+selected_options:
+- 1
+local_check: false

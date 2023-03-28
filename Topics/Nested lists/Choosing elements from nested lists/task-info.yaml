@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "[[\"ice cream\"], [\"toasts\"]]"
+- text: "[[\"ice cream\", 2, 4], [\"toasts\", 2, 10]]"
+- text: "\"ice cream\", \"toasts\""
+- text: "[\"ice cream\", \"toasts\"]"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6941#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 23 Feb 2023 21:57:16 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false

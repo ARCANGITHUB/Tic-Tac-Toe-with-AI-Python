@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Define attributes only inside of methods
+- text: Not to define attributes in <code>__init__</code> as <code>None</code>
+- text: Define all possible attributes inside <code>__init__</code>
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23422#comment
+status: Solved
+record: -1
+local_check: false

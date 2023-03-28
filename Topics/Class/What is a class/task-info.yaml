@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: A class represents common structures of similar objects (behavior and data).
+- text: A class represents the way of interaction of objects.
+- text: A class represents the way of dealing with for loops.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15263#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 02 Mar 2023 17:19:09 UTC"
+record: -1
+selected_options:
+- 0
+custom_name: What is a class?
+local_check: false

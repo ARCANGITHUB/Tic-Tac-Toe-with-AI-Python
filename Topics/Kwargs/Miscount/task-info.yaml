@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Pass key-value pairs from a dictionary with ** in a function call.
+- text: Use * when declaring a function to work with a list of non-keyword arguments.
+- text: "When calling a function, place * before an iterable to pass its elements\
+    \ into the function."
+- text: Define a function with ** for keyword arguments.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7250#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 09 Mar 2023 22:26:54 UTC"
+record: -1
+selected_options:
+- 1
+- 3
+local_check: false

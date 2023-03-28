@@ -1,0 +1,16 @@
+type: code
+custom_name: You've got mail!
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # write your code here
+    # remember: the variable email is already defined
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6966#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 23 Mar 2023 21:21:30 UTC"
+record: -1
+submission_language: python3

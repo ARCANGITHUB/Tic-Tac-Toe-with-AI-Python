@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: It is a good rule since your class won't work at all without <code>__repr__</code>.
+- text: It is a good rule since <code>__repr__</code> creates a representation for
+    users.
+- text: It is a good rule since <code>__repr__</code> is used by programmers in debugging.
+- text: It is a good rule since <code>__repr__</code> is unambiguous.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15535#comment
+status: Solved
+record: -1
+local_check: false

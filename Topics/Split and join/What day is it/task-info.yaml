@@ -1,0 +1,12 @@
+type: code
+custom_name: What day is it?
+files:
+- name: main.py
+  visible: true
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9467#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 22 Feb 2023 20:58:09 UTC"
+record: -1

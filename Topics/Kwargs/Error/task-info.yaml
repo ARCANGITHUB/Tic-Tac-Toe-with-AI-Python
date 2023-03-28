@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>TypeError</code>
+- text: <code>WrongOrder</code>
+- text: <code>ValueError</code>
+- text: <code>SyntaxError</code>
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15306#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 09 Mar 2023 22:25:36 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Values
+- text: All options are correct
+- text: Objects
+- text: References to objects
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23419#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 06 Mar 2023 16:10:19 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false

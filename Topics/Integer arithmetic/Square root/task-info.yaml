@@ -1,0 +1,22 @@
+type: number
+files:
+- name: answer.txt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 3
+    placeholder_text: type your solution here
+    initial_state:
+      length: 3
+      offset: 0
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+  text: type your solution here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6883#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 Feb 2023 20:58:29 UTC"
+record: -1

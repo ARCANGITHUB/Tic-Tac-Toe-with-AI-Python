@@ -1,0 +1,11 @@
+<h2>Through the doorway</h2>
+<html><body><p>Suppose you want to carry a box with dimensions <strong>A</strong> × <strong>B</strong> × <strong>C</strong> (length × width × height) through the doorway with dimensions <strong>X</strong> × <strong>Y</strong> (width × height). Write a program to check whether it is possible.</p>
+<p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-346').style.display='inline'">
+        Hint
+      </button>
+</p><div id="hint-346" style="display:none;">To pass the box, it is enough to have two dimensions smaller than or equal to the doorway width and height.</div>
+<p><strong>The input format</strong>:<br/>
+The input comprises five strings with numbers in the following order: <strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>X</strong>, <strong>Y</strong>. If the size of the doorway is greater than or equal to any two dimensions of the box, it is considered that the box can be carried.</p>
+<p><strong>The output format</strong>:<br/>
+If the box can be carried through the doorway, output <code class="java">"The box can be carried"</code>.<br/>
+If it cannot be carried, output <code class="java">"The box cannot be carried"</code>.</p></body></html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">24<br>21<br>11<br>36<br>80</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">The box can be carried</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">80<br>50<br>80<br>33<br>78</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">The box cannot be carried</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>

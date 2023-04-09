@@ -17,8 +17,8 @@ Prerequisites
 Usage
 
 - Clone the repository to your local machine using git clone https://github.com/yourusername/tic-tac-toe.git.
-- Navigate to the project directory by running cd tic-tac-toe.
-- Launch the game by running python tic_tac_toe.py in the terminal.
+- Navigate to the project directory Tic-Tac-Toe-with-AI-Python/Tic-Tac-Toe with AI (Python)/task/tictactoe.py
+- Launch the game by running python tictactoe.py in the terminal.
 - Follow the on-screen prompts to select the game mode (start user (easy/medium/hard)) and the difficulty level of the AI player (easy, medium, hard).
 - Make your moves by inputting the row and column numbers for your desired move.
 - The game will continue until there is a winner or a draw, and the winner or the result will be displayed.
